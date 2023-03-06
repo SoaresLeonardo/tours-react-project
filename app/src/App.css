@@ -1,0 +1,62 @@
+.container {
+  max-width: 90vw;
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tours-title {
+  text-align: center;
+  letter-spacing: 1.4px;
+}
+
+.tours-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 500px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px rgba(156, 156, 156, 0.63);
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-info span {
+  background-color: #6e6eff79;
+  color: #080892;
+}
+
+@media (max-width: 760px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.btn-delete {
+  background-color: inherit;
+  border: 1px solid rgb(243, 103, 103);
+  border-radius: 5px;
+  padding: 10px;
+  width: 50%;
+}
+
+.showLess {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  color: #5656ff;
+}

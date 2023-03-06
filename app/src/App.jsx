@@ -39,5 +39,13 @@ export default function App() {
     );
   }
 
+  if (tours.length < 1) {
+    return (
+      <div className="refrest">
+        <button onClick={fetchTours}>Refrest</button>
+      </div>
+    );
+  }
+
   return <Tours tours={tours} removeTours={removeTour} />;
 }

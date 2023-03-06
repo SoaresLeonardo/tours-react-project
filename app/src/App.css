@@ -60,3 +60,19 @@
   cursor: pointer;
   color: #5656ff;
 }
+
+.refrest {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.refrest button {
+  background-color: #5656ff;
+  border: none;
+  padding: 10px;
+  color: white;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+}
